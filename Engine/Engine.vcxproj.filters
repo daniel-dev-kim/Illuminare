@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Engine">
+      <UniqueIdentifier>{2530cbd3-588f-456a-90fa-5f5d3a6ba685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine Components">
+      <UniqueIdentifier>{3f49d579-3e79-4e14-b272-e65b3192e742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine Components\Rendering">
+      <UniqueIdentifier>{0f74da50-a8eb-444d-a4be-b129926ebe14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine Components\Rendering\Abstract">
+      <UniqueIdentifier>{85910b9f-ef4f-403d-a764-4376ffa5a701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine Components\Rendering\OpenGL">
+      <UniqueIdentifier>{bbc1d0a4-fe2b-48c9-9a8f-476a77260f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Main">
+      <UniqueIdentifier>{fe9b5300-7c79-43b4-b141-d25303af3a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Main\pch">
+      <UniqueIdentifier>{3663e071-57db-48ca-8bbf-94c411e0be1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine Components\Task Manager">
+      <UniqueIdentifier>{0d502f28-ff32-4e47-8a3a-677c280a537e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine Components\World Manager">
+      <UniqueIdentifier>{d17d174b-fac5-4fa0-ab3e-eb9d1ea4d4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. World">
+      <UniqueIdentifier>{75339acb-3a5a-40ba-8ff5-93d5aac1b205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. World Components">
+      <UniqueIdentifier>{3dcd5ad1-0cd5-490b-94e0-696840d61db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine Components\Input System">
+      <UniqueIdentifier>{422cf5e0-39b9-4ecf-bc2f-6889e02c86b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Layer">
+      <UniqueIdentifier>{27be46a8-47bf-4d3a-80d1-7737d58d2311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Layer Component">
+      <UniqueIdentifier>{64018b12-f1f9-4332-89ad-9f439a86ee89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Actor">
+      <UniqueIdentifier>{dfa89c1d-778e-4e22-90de-eca55893bce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Actor Components">
+      <UniqueIdentifier>{e5151d87-85cb-491b-8bee-1458579a908f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Actor Components\Camera Component">
+      <UniqueIdentifier>{1c43c19d-4e17-438d-a664-a226e48026af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Actor Components\Transform Component">
+      <UniqueIdentifier>{e46a1051-80c4-42cb-a803-97055bf1e88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Actor Components\Model Component">
+      <UniqueIdentifier>{40c1c4f8-cf1e-4965-9578-c075250e46de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Actor Components\Model Component\Mesh">
+      <UniqueIdentifier>{442e7fea-02bb-4068-bdbc-508e016b1bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Actor Components\Model Component\Material">
+      <UniqueIdentifier>{ca0e9356-a09c-4e2b-980b-8fafac3fd2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Actor Components\Model Component\Model">
+      <UniqueIdentifier>{d35bbefe-7f66-4513-aca0-767bab054dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Actor Components\Light Component">
+      <UniqueIdentifier>{d1a81dec-33bc-40e8-b6e8-8f64f17a217b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>99. Main\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLShader.h">
+      <Filter>01. Engine Components\Rendering\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLRenderer.h">
+      <Filter>01. Engine Components\Rendering\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>01. Engine Components\Rendering\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>01. Engine Components\Rendering\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>00. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>01. Engine Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderProxy.h">
+      <Filter>01. Engine Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>01. Engine Components\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>01. Engine Components\Task Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>01. Engine Components\World Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>02. World</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>06. Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>07. Actor Components\Transform Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>07. Actor Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>07. Actor Components\Camera Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelComponent.h">
+      <Filter>07. Actor Components\Model Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>07. Actor Components\Model Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>07. Actor Components\Model Component\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>07. Actor Components\Model Component\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="FreecamComponent.h">
+      <Filter>07. Actor Components\Camera Component</Filter>
+    </ClInclude>
+    <ClInclude Include="LightComponent.h">
+      <Filter>07. Actor Components\Light Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>04. Layer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>99. Main\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>00. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>99. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>01. Engine Components\Input System</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>01. Engine Components\Task Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>01. Engine Components\World Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>02. World</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>06. Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelComponent.cpp">
+      <Filter>07. Actor Components\Model Component</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLRenderer.cpp">
+      <Filter>01. Engine Components\Rendering\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLShader.cpp">
+      <Filter>01. Engine Components\Rendering\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>01. Engine Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>07. Actor Components\Transform Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>07. Actor Components\Camera Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>07. Actor Components\Model Component\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>07. Actor Components\Model Component\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>07. Actor Components\Model Component\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="FreecamComponent.cpp">
+      <Filter>07. Actor Components\Camera Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="STB_IMPL.cpp">
+      <Filter>99. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp" />
+  </ItemGroup>
+</Project>
